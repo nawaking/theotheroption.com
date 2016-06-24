@@ -1,0 +1,98 @@
+//for device more than 768px screen size
+
+@media screen and (min-width:768px) {
+	
+	// header
+	//header-top
+	.pull-to-right {
+		//float: right;
+
+		ul {
+			display: block;
+			float: right;
+		}
+	}
+
+	.pull-to-left {
+		float: left;
+		text-align: left;
+	}
+
+
+	//testimonials
+	div.testimonial_1,div.testimonial_2 {
+		width: 80%;
+		margin: 0 auto;
+		font-size: 16px;
+	}
+
+	div.footer{
+	 	text-align: left;
+
+	 	ul.footer-menu {
+			display: block;
+		}
+	}
+
+}
+
+//for devices more that 992px screen size
+@media screen and (min-width:992px) {
+	//header-title
+	.title-image .img-responsive {
+		margin: 0;
+	}
+
+	.header-title {
+		h3, p {
+			text-align: right;
+		}
+	}
+
+	//product
+
+	div.product {
+
+		margin: 18px 0;
+
+		img {
+			margin-top: 21px;
+			width: 100%;
+		}
+
+		.overlay {
+			margin-top: 21px;
+		}
+	}
+
+}
+
+
+
+//large devices
+@media screen and (min-width:1200px) {
+	
+	//product
+
+	div.product {
+
+		margin: 14px 0;
+
+		img {
+			margin-top: 26px;
+			width: 100%;
+		}
+
+		.overlay {
+			margin-top: 26px;
+		}
+	}
+}
+
+
+
+
+
+
+
+

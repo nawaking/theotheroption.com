@@ -1,0 +1,15 @@
+body {
+	font-family: $font-family;
+}
+
+.pull-to-right {
+	text-align: center;
+
+	ul {
+		display: inline-block;
+	}
+}
+
+.pull-to-left {
+	text-align: center;
+}

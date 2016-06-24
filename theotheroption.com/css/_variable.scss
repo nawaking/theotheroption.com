@@ -1,0 +1,63 @@
+// color variable
+
+$background-header-top: rgb(227,227,224);   	//E3E3E0
+$background-header-title: rgb(240,239,235); 	//F0EFEB
+$background-navbar: rgb(50,50,50);				//323232
+$background-testimonials: rgb(73,74,73);		//494A49
+$background-footer: rgb(17,17,17);				//111111
+
+
+$font-color-medium: rgb(102,102,102);			//666666
+$font-color-dark: rgb(85,85,85);				//555555
+$font-color-light: rgb(153,153,153);			//999999
+$font-testimonials: rgb(238,238,238);			//eeeeee
+$font-color-useful: rgb(195,193,193);			//c3c1c1
+
+
+$color-white: rgb(255,255,255);					//ffffff
+$color-black: rgb(0,0,0);						//000000
+
+$color-border: rgb(205,205,205);				//cdcdcd
+$color-border-top-nav: rgb(245,245,245);		//f5f5f5
+$color-border-useful: rgb(46,47,48);
+
+
+//font
+$font-family: arial, helvetica, sans-serif;
+
+
+
+//mixins
+@mixin rotate($angle) {
+	-webkit-transform: rotate($angle);
+	-ms-transform    : rotate($angle);
+	-o-transform     : rotate($angle);
+	transform        : rotate($angle);
+}
+
+@mixin transition($property, $time, $style) {
+	-webkit-transition: $property $time $style;
+	-o-transition     : $property $time $style;
+	transition        : $property $time $style;
+}
+
+@mixin translateX($value) {
+	-webkit-transform: translateX($value);
+	-ms-transform    : translateX($value);
+	-o-transform     : translateX($value);
+	transform        : translateX($value);
+}
+
+@mixin translateY($value) {
+	-webkit-transform: translateY($value);
+	-ms-transform    : translateY($value);
+	-o-transform     : translateY($value);
+	transform        : translateY($value);
+}
+
+@mixin scale($xlength,$ylength) {
+	-webkit-transform: scale($xlength,$ylength);
+	-ms-transform: scale($xlength,$ylength);
+	-o-transform: scale($xlength,$ylength);
+	transform: scale($xlength,$ylength);
+}
